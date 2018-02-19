@@ -1,6 +1,30 @@
 # Overpass-Wrapper library
-[![Build Status](https://travis-ci.org/wolfhardfehre/overpass-wrapper.svg?branch=master)](https://travis-ci.org/wolfhardfehre/overpass-wrapper)
+[![Download](https://api.bintray.com/packages/anorak/overpass-wrapper/overpass-wrapper/images/download.svg)](https://bintray.com/anorak/overpass-wrapper/overpass-wrapper/_latestVersion) [![Build Status](https://travis-ci.org/wolfhardfehre/overpass-wrapper.svg?branch=master)](https://travis-ci.org/wolfhardfehre/overpass-wrapper)
 
+## Get It
+
+Grab it via Maven:
+
+```xml
+<dependency>
+  <groupId>nice.fontaine</groupId>
+  <artifactId>geo-tools</artifactId>
+  <version>{VERSION}</version>
+  <type>pom</type>
+</dependency>
+```
+or Gradle:
+
+```groovy
+repositories {
+     jcenter()
+ }
+```
+
+```groovy
+compile 'nice.fontaine:geo-tools:{VERSION}'
+```
+    
 ## Introduction
 
 A Java wrapper library around the [Overpass QL][0] to query the [Overpass API][1]. Overpass is used 
@@ -51,19 +75,21 @@ The structure hierarchy is **nodes > ways > relations**. Only nodes contain geom
 
 ## Examples
 
-[Here][13] you find a list of API endpoints and 
-[here][14] a list of possible map features.
+* [Here][13] you find a list of API endpoints and 
+* [here][14] a list of possible map features.
 
 #### Post Box Example
 
 Get all postal boxes around the position (latitude: 52.5, longitude: 13.4) in a 500 m radius.
 
 **Conditions**
+
 + Server side query timeout at 25 seconds
 + Within a radius of 500 meter of a position
 + Case sensitive equality search
 
 **Overpass QL** 
+
 ```groovy
 [out:json][timeout:25];
 node["amenity"="post_box"](around:500.0,52.5,13.4);
@@ -71,6 +97,7 @@ out;
 ```
 
 **Overpass Wrapper**
+
 ```java
 NodeQuery node = new NodeQuery.Builder()
         .timeout(25)
@@ -92,18 +119,21 @@ Make Auto-complete Address Search like with GooglePlacesAPI
 taking user position into account limit to 10 results.
 
 **Conditions**
+
 + Case insensitive regex text search
 + Within a 1000 meter radius of a position
 + Limited to the best 10 results
 + Ascending order by distance
 
 **Overpass QL**
+
 ```groovy
 [out:json][timeout:10];
 node[name~"alex", i](around:1000.0,52.521884,13.413181);
 out 10 qt;
 ```
 **Overpass Wrapper**
+
 ```java
 NodeQuery node = new NodeQuery.Builder()
         .ilike("name", "alex")
@@ -164,6 +194,12 @@ Run the following command to execute all tests:
 ```bash 
     $ ./gradlew clean test 
 ```
+
+## Publish
+
+As explained [here](https://github.com/bintray/gradle-bintray-plugin)
+
+    $ ./gradlew bintrayUpload
 
 ## Author
 

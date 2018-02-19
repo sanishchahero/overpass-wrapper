@@ -15,9 +15,9 @@ public abstract class Query {
 
     private boolean isSorted;
     protected Settings.Builder settings;
-    protected Verbosity verbosity;
-    protected Modifier modifier;
-    protected int limit;
+    private Verbosity verbosity;
+    private Modifier modifier;
+    private int limit;
 
     protected Query(Builder<?> builder) {
         settings = builder.settings;
@@ -86,7 +86,7 @@ public abstract class Query {
          * e.g. [bbox:south,west,north,east]
          *
          * @param coordinates in the format of [south, west, north, east]
-         * @return {@link Builder<Q>}
+         * @return {@link Q}
          */
         public Q globalBoundingBox(double[] coordinates) {
             settings.globalBoundingBox(coordinates);
@@ -130,7 +130,7 @@ public abstract class Query {
          * Set Modifier {@link Modifier} for Response body.
          *
          * @param modifier {@link Modifier}
-         * @return {@link Builder<Q>}
+         * @return {@link Q}
          */
         public Q modifier(Modifier modifier) {
             this.modifier = modifier;
@@ -140,7 +140,7 @@ public abstract class Query {
         /**
          * Use if Response body should be sorted by distance.
          *
-         * @return {@link Builder<Q>}
+         * @return {@link Q}
          */
         public Q sort() {
             this.isSorted = true;
@@ -151,7 +151,7 @@ public abstract class Query {
          * Set a limit for the entries in the Response body.
          *
          * @param limit integer
-         * @return {@link Builder<Q>}
+         * @return {@link Q}
          */
         public Q limit(int limit) {
             this.limit = limit;

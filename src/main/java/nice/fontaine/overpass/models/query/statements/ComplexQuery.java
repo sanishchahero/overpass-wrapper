@@ -142,7 +142,7 @@ public final class ComplexQuery extends Query {
          * <br>
          * <b>Attention</b>: input order matters!
          * <br>
-         *     e.g. <<
+         *     e.g. {@code <<}
          *
          * @return {@link Builder}
          */
@@ -162,7 +162,7 @@ public final class ComplexQuery extends Query {
          * <br>
          * <b>Attention</b>: input order matters!
          * <br>
-         *     e.g. <
+         *     e.g. {@code <}
          *
          * @return {@link Builder}
          */
@@ -181,7 +181,7 @@ public final class ComplexQuery extends Query {
          * <br>
          * <b>Attention</b>: input order matters!
          * <br>
-         *     e.g. >>
+         *     e.g. {@code >>}
          *
          * @return {@link Builder}
          */
@@ -202,7 +202,7 @@ public final class ComplexQuery extends Query {
          * <br>
          * <b>Attention</b>: input order matters!
          * <br>
-         *     e.g. >
+         *     e.g. {@code >}
          *
          * @return {@link Builder}
          */
@@ -263,7 +263,7 @@ public final class ComplexQuery extends Query {
          * <br>
          * <b>Attention</b>: list input order matters!
          *
-         * @param statements List<Statement>
+         * @param statements {@link List}
          * @return {@link Builder}
          */
         public Builder addAll(List<Statement> statements) {
@@ -282,7 +282,7 @@ public final class ComplexQuery extends Query {
          * <br>
          * <b>Attention</b>: list input order matters!
          * <br>
-         * OverpassApi equivalent: (node[name="Foo"]; - node(50.0,7.0,51.0,8.0););
+         * OverpassApi equivalent: {@code (node[name="Foo"]; - node(50.0,7.0,51.0,8.0););}
          *
          * @param statement1 {@link Statement}
          * @param statement2 {@link Statement}
@@ -300,7 +300,7 @@ public final class ComplexQuery extends Query {
          * <br>
          * <b>Attention</b>: list input order matters!
          * <br>
-         * OverpassApi equivalent: (node[name="Foo"]; - node(50.0,7.0,51.0,8.0);)->.c;
+         * OverpassApi equivalent: {@code (node[name="Foo"]; - node(50.0,7.0,51.0,8.0);)->.c;}
          *
          * @param statement1 {@link Statement}
          * @param statement2 {@link Statement}
@@ -324,9 +324,9 @@ public final class ComplexQuery extends Query {
          * <br>
          * Attention: list input order matters!
          * <br>
-         * OverpassApi equivalent: node[name="Foo"]->.a; node(50.0,7.0,51.0,8.0)->.b;node.a.b;
+         * OverpassApi equivalent: {@code node[name="Foo"]->.a; node(50.0,7.0,51.0,8.0)->.b;node.a.b;}
          *
-         * @param statements List<Statement>
+         * @param statements {@link List}
          * @return {@link Builder}
          */
         public Builder intersection(Geometry geometry, List<Statement> statements) {
@@ -342,9 +342,9 @@ public final class ComplexQuery extends Query {
          * <br>
          * Attention: list input order matters!
          * <br>
-         * OverpassApi equivalent: node[name="Foo"]->.a; node(50.0,7.0,51.0,8.0)->.b;node.a.b->.c;
+         * OverpassApi equivalent: {@code node[name="Foo"]->.a; node(50.0,7.0,51.0,8.0)->.b;node.a.b->.c;}
          *
-         * @param statements List<Statement>
+         * @param statements {@link List}
          * @param resultSet {@link Set}
          * @return {@link Builder}
          */
@@ -381,7 +381,7 @@ public final class ComplexQuery extends Query {
          * <br>
          * Attention: list input order matters!
          * <br>
-         * OverpassApi equivalent: (node[name="Foo"];way[name="Foo"];);
+         * OverpassApi equivalent: {@code (node[name="Foo"];way[name="Foo"];);}
          *
          * @param statement1 {@link Statement}
          * @param statement2 {@link Statement}
@@ -402,9 +402,9 @@ public final class ComplexQuery extends Query {
          * <br>
          * Attention: list input order matters!
          * <br>
-         * OverpassApi equivalent: (node[name="Foo"];way[name="Foo"];);
+         * OverpassApi equivalent: {@code (node[name="Foo"];way[name="Foo"];);}
          *
-         * @param statements List<Statement>
+         * @param statements {@link List}
          * @return {@link Builder}
          */
         public Builder union(List<Statement> statements) {
@@ -419,9 +419,9 @@ public final class ComplexQuery extends Query {
          * <br>
          * Attention: list input order matters!
          * <br>
-         * OverpassApi equivalent: (node[name="Foo"];way[name="Foo"];)->.c;
+         * OverpassApi equivalent: {@code (node[name="Foo"];way[name="Foo"];)->.c;}
          *
-         * @param statements List<Statement>
+         * @param statements {@link List}
          * @param resultSet {@link Set}
          * @return {@link Builder}
          */
