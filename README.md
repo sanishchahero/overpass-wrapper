@@ -1,4 +1,5 @@
 # Overpass-Wrapper library
+[![Build Status](https://travis-ci.org/wolfhardfehre/overpass-wrapper.svg?branch=master)](https://travis-ci.org/wolfhardfehre/overpass-wrapper)
 
 ## Introduction
 
