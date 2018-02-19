@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nice.fontaine.overpass.models.response.adapters.ElementAdapterTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-02-19T21:36:50" hostname="wompe" time="0.008">
+  <properties/>
+  <testcase name="shouldConvertToNode_whenTypeNode" classname="nice.fontaine.overpass.models.response.adapters.ElementAdapterTest" time="0.002"/>
+  <testcase name="shouldConvertToWay_whenTypeWay" classname="nice.fontaine.overpass.models.response.adapters.ElementAdapterTest" time="0.002"/>
+  <testcase name="shouldConvertToRelation_whenTypeRelation" classname="nice.fontaine.overpass.models.response.adapters.ElementAdapterTest" time="0.002"/>
+  <testcase name="shouldConvertToElementJson_whenGivenElement" classname="nice.fontaine.overpass.models.response.adapters.ElementAdapterTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

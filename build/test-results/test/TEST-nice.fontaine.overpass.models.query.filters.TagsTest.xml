@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nice.fontaine.overpass.models.query.filters.TagsTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2018-02-19T21:36:50" hostname="wompe" time="0.014">
+  <properties/>
+  <testcase name="shouldCreateOneLikeTag_whenOneElementAdded" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.001"/>
+  <testcase name="shouldCreateNotExistTag_whenCallingAddWithValueNotNullAndIsFilter" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.0"/>
+  <testcase name="shouldCreateNotLikeTag_whenCallingNotLike" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.0"/>
+  <testcase name="shouldFail_whenAddKeyIsNull" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.004"/>
+  <testcase name="shouldCreateExistTag_whenCallingAddWithValueNotNullAndIsFilter" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.0"/>
+  <testcase name="shouldFail_whenEqualAddValueIsNull" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.001"/>
+  <testcase name="shouldCreateOneEqualTag_whenOneElementAdded" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.0"/>
+  <testcase name="shouldCreateNotLikeTag_whenCallingAddWithNotLikeFilter" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.0"/>
+  <testcase name="shouldCreateNotExistTag_whenCallingIsNot" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.001"/>
+  <testcase name="shouldCreateLikeTag_whenCallingLike" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.0"/>
+  <testcase name="shouldCreateNotExistTag_whenCallingAddWithValueNullAndIsFilter" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.0"/>
+  <testcase name="shouldCreateExistTag_whenCallingIs" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.001"/>
+  <testcase name="shouldCreateEqualTag_whenCallingEqual" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.0"/>
+  <testcase name="shouldCreateNotEqualTag_whenCallingAddWithNotEqualFilter" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.0"/>
+  <testcase name="shouldCreateILikeTag_whenCallingILike" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.0"/>
+  <testcase name="shouldCreateExistTag_whenCallingAddWithValueNullAndIsFilter" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.0"/>
+  <testcase name="shouldCreateEqualTag_whenCallingAddWithEqualFilter" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.0"/>
+  <testcase name="shouldCreateTwoEqualTags_whenTwoElementsAdded" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.0"/>
+  <testcase name="shouldCreateNotILikeTag_whenCallingNotILike" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.0"/>
+  <testcase name="shouldCreateLikeTag_whenCallingAddWithLikeFilter" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.0"/>
+  <testcase name="shouldCreateNotEqualTag_whenCallingNotEqual" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.0"/>
+  <testcase name="shouldFail_whenDefaultAddValueIsNull" classname="nice.fontaine.overpass.models.query.filters.TagsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

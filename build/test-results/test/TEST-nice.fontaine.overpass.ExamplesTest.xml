@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nice.fontaine.overpass.ExamplesTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-02-19T21:36:50" hostname="wompe" time="0.002">
+  <properties/>
+  <testcase name="shouldQueryWithMultipleStatements_whenCalled" classname="nice.fontaine.overpass.ExamplesTest" time="0.001"/>
+  <testcase name="shouldFindRoutesBySpecificStationNode_whenCalled" classname="nice.fontaine.overpass.ExamplesTest" time="0.0"/>
+  <testcase name="shouldQueryILikeAlexanderplatz_whenCalled" classname="nice.fontaine.overpass.ExamplesTest" time="0.0"/>
+  <testcase name="shouldQueryUnionOfWayWithTagAndDownRecursion_whenCalled" classname="nice.fontaine.overpass.ExamplesTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

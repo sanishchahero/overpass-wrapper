@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nice.fontaine.overpass.models.response.geometries.NodeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-02-19T21:36:50" hostname="wompe" time="0.006">
+  <properties/>
+  <testcase name="shouldHaveAllAttributes_whenVerbosityIsMeta" classname="nice.fontaine.overpass.models.response.geometries.NodeTest" time="0.003"/>
+  <testcase name="shouldHaveGeomAttributes_whenModifierIsGeom" classname="nice.fontaine.overpass.models.response.geometries.NodeTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
