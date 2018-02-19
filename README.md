@@ -1,5 +1,5 @@
 # Overpass-Wrapper library
-[![Download](https://api.bintray.com/packages/anorak/overpass-wrapper/overpass-wrapper/images/download.svg)](https://bintray.com/anorak/overpass-wrapper/overpass-wrapper/_latestVersion) [![Build Status](https://travis-ci.org/wolfhardfehre/overpass-wrapper.svg?branch=master)](https://travis-ci.org/wolfhardfehre/overpass-wrapper) [![codecov](https://codecov.io/gh/wolfhardfehre/overpass-wrapper/branch/master/graph/badge.svg)](
+[![Download](https://api.bintray.com/packages/anorak/overpass-wrapper/overpass-wrapper/images/download.svg)](https://bintray.com/anorak/overpass-wrapper/overpass-wrapper/_latestVersion) [![Build Status](https://travis-ci.org/wolfhardfehre/overpass-wrapper.svg?branch=master)](https://travis-ci.org/wolfhardfehre/overpass-wrapper) [![codecov](https://codecov.io/gh/wolfhardfehre/overpass-wrapper/branch/master/graph/badge.svg)](https://codecov.io/gh/wolfhardfehre/overpass-wrapper)
 
 ## Get It
 
