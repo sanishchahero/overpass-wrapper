@@ -3,8 +3,8 @@
 ## Introduction
 
 A Java wrapper library around the [Overpass QL][0] to query the [Overpass API][1]. Overpass is used 
-to query physical [OpenStreetMap (OSM)][2][features][3]on the ground (e.g., roads or buildings) 
-using [tags][4]attached to its basic data structures ([nodes,][5][ways,][6][relations][7]). Each 
+to query physical [OpenStreetMap (OSM)][2] [features][3] on the ground (e.g., roads or buildings) 
+using [tags][4] attached to its basic data structures ([nodes,][5] [ways,][6] [relations][7]). Each 
 tag describes a geographic attribute of the feature being shown by that specific node, way or 
 relation.
 
