@@ -8,7 +8,7 @@ Grab it via Maven:
 ```xml
 <dependency>
   <groupId>nice.fontaine</groupId>
-  <artifactId>geo-tools</artifactId>
+  <artifactId>overpass-wrapper</artifactId>
   <version>{VERSION}</version>
   <type>pom</type>
 </dependency>
@@ -22,7 +22,7 @@ repositories {
 ```
 
 ```groovy
-compile 'nice.fontaine:geo-tools:{VERSION}'
+compile 'nice.fontaine:overpass-wrapper:{VERSION}'
 ```
     
 ## Introduction
